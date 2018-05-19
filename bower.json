@@ -1,0 +1,21 @@
+{
+  "name": "chatapp",
+  "description": "my chat app for learning",
+  "main": "chat.js",
+  "authors": [
+    "gaurav"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.7.0",
+    "bootstrap": "^4.1.1"
+  }
+}
