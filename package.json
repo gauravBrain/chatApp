@@ -18,6 +18,11 @@
   "homepage": "https://bitbucket.org/gau12jan/chatapp#readme",
   "dependencies": {
     "bluebird": "^3.5.1",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^3.0.0",
     "lodash": "^4.17.10",
     "mongoose": "^5.1.1",
     "path": "^0.12.7",

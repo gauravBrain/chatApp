@@ -1,5 +1,8 @@
+"use strict";
 
-angular
+(function(){
+
+    angular
     .module('chatapp')
     .controller('chatController', chatController)
 
@@ -7,12 +10,10 @@ angular
 chatController.$inject = ['$scope', 'socket'];
 function chatController($scope, socket) {
 
-
-
     $scope.users = [];
     $scope.curtrentUser = '';
 
-    socket.on('ativeUsers', data => {
+    socket.on('ativeUsers', function(data) {
         $scope.ativeUsers = data;
         $scope.$apply();
     })
@@ -51,3 +52,10 @@ function chatController($scope, socket) {
 
 
 }
+
+
+
+
+
+})();
+
